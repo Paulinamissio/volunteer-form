@@ -1,0 +1,25 @@
+html {
+  font-family: "Droid Serif", serif;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+.green {
+  background-color: #70ad55;
+  color: #fff;
+}
+
+.box {
+  border: 2px solid #6e8c62;
+}
+
+fieldset {
+  border-bottom: 1px solid #70ad55;
+  border-top: 0;
+}
+
+hr {
+  border-bottom: 1px solid #6e8c62;
+}
