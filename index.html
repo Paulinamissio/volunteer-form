@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-ca">
+
 <head>
   <meta charset="utf-8">
   <title>Volunteer Sign-up</title>
@@ -10,6 +11,7 @@
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700" rel="stylesheet">
 </head>
+
 <body>
   <section>
     <div>
@@ -57,13 +59,11 @@
               <label class="pad-bottom-quarter" for="email">Email</label>
               <input class="box" id="email" type="email" name="email">
             </div>
-
             <div class="push unit xs-1 s-1 m-1-2 l-1-2 gutter-half">
               <label class="pad-bottom-quarter" for="tel">Phone number (optional)</label>
               <input class="box push-none" id="tel" type="tel" name="tel">
             </div>
             <hr>
-
           </div>
         </fieldset>
         <fieldset>
@@ -153,20 +153,20 @@
               <label class="push-quarter block" for="photo">Photography</label>
             </div>
             <div class="unit xs-1 s-1 m-1-2 l-1-2">
-              <input class="box" id="gps" type="checkbox">
-              <label class="push-quarter block" for="gps">Hand-held GPS</label>
+              <input class="box" id="climbing" type="checkbox">
+              <label class="push-quarter block" for="climbing">Trail & hill climbing</label>
             </div>
             <div class="unit xs-1 s-1 m-1-2 l-1-2">
-              <input class="box" id="photo" type="checkbox">
-              <label class="push-quarter block" for="photo">Photography</label>
+              <input class="box" id="craft" type="checkbox">
+              <label class="push-quarter block" for="craft">Bush craft</label>
             </div>
             <div class="unit xs-1 s-1 m-1-2 l-1-2">
-              <input class="box" id="gps" type="checkbox">
-              <label class="push-quarter block" for="gps">Hand-held GPS</label>
+              <input class="box" id="atv" type="checkbox">
+              <label class="push-quarter block" for="atv">ATVs</label>
             </div>
             <div class="unit xs-1 s-1 m-1-2 l-1-2">
-              <input class="box" id="photo" type="checkbox">
-              <label class="push-quarter block" for="photo">Photography</label>
+              <input class="box" id="identification" type="checkbox">
+              <label class="push-quarter block" for="identification">Plant identification</label>
             </div>
             <div class="unit xs-1 s-1 m-1-2 l-1-2">
               <input class="box" id="plan" type="checkbox">
@@ -178,37 +178,43 @@
             </div>
           </div>
         </fieldset>
-        <p class="push-half bold giga">Do you have a pick-up truck you’d be willing to use?</p>
-        <div class="push pad-bottom">
-          <input class="box1" id="yes1" type="radio" name="pickup">
-          <label for="yes1">Yes</label>
-          <input class="box1" id="no1" type="radio" name="pickup">
-          <label for="no1">No</label>
+        <fieldset class="gutter-half giga">
+          <legend class="pad-top push-half">Do you have a valid driver’s license?</legend>
+          <div class="push pad-bottom">
+            <input class="box" id="yes" type="radio" name="licence">
+            <label for="yes">Yes</label>
+            <input class="box" id="no" type="radio" name="licence">
+            <label for="no">No</label>
+          </div>
+          <p class="push-half bold giga">Do you have a pick-up truck you’d be willing to use?</p>
+          <div class="push pad-bottom">
+            <input class="box1" id="yes1" type="radio" name="pickup">
+            <label for="yes1">Yes</label>
+            <input class="box1" id="no1" type="radio" name="pickup">
+            <label for="no1">No</label>
+          </div>
+          <p class="push-half bold giga">Do you have up-to-date first-aid certification?</p>
+          <div class="push-double pad-bottom-half">
+            <input class="box" id="yes2" type="radio" name="firstaid">
+            <label for="yes2">Yes</label>
+            <input class="box" id="no2" type="radio" name="firstaid">
+            <label for="no2">No</label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <div class="push-double gutter-half mega pad-top">
+            <label class="push-half bold" for="comments">Please let us know any comments or questions you may have</label>
+            <textarea id="comments" rows="8" name="comments"></textarea>
+          </div>
+        </fieldset>
+        <div class="text-center pad-top pad-bottom">
+          <button class="btn push gutter-double pad-top-half pad-bottom-half text-center" type="submit">Apply</button>
         </div>
-        <p class="push-half bold giga">Do you have up-to-date first-aid certification?</p>
-        <div class="push-double pad-bottom-half">
-          <input class="box" id="yes2" type="radio" name="firstaid">
-          <label for="yes2">Yes</label>
-          <input class="box" id="no2" type="radio" name="firstaid">
-          <label for="no2">No</label>
-        </div>
-      </fieldset>
-      <fieldset>
-        <div class="push-double gutter-half mega pad-top">
-          <label class="push-half bold" for="comments">Please let us know any comments or questions you may have</label>
-          <textarea id="comments" rows="8" name="comments"></textarea>
-        </div>
-      </fieldset>
-      <div class="text-center pad-top pad-bottom">
-        <button class="btn push gutter-double pad-top-half pad-bottom-half text-center" type="submit">Apply</button>
-      </div>
-    </form>
-    <footer class="pad-top-half">
-      <p class="green gutter-half micro pad-top pad-bottom push-none">© Tree Hugger International Organization</p>
-    </footer>
-  </div>
-</section>
-
-
+      </form>
+      <footer class="pad-top-half">
+        <p class="green gutter-half micro pad-top pad-bottom push-none">© Tree Hugger International Organization</p>
+      </footer>
+    </div>
+  </section>
 </body>
 </html>
